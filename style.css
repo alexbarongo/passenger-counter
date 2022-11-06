@@ -16,16 +16,20 @@
 }
 
 body{
-	background-color: var(--color2);
-}
+	background-image: url(
+		https://www.kohinoorpune.com/hubfs/Hinjewadi%20Metro%20Station.jpeg
+		);
+	background-size: cover;
+	background-repeat: no-repeat;
+}	
 
 .pad{
-	width: 50vw;
+	width: 300px;
 	height: 45vh;
 	border: 1px solid var(--color7);
 	border-radius: 30px;
 	background: linear-gradient(180deg, var(--color3)60%, coral);
-	margin: 30px auto;
+	margin: 25vh auto;
 	text-align: center;
 }
 
