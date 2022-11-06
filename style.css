@@ -1,0 +1,90 @@
+:root{
+	--color1: #472731;
+	--color2: #282130;
+	--color3: #f18a85;
+	--color4: #24788f;
+	--color5: #849dab;
+	--color6: #000000;
+	--color7: #ffffff;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family:  Ubuntu;
+}
+
+body{
+	background-color: var(--color2);
+}
+
+.pad{
+	width: 50vw;
+	height: 45vh;
+	border: 1px solid var(--color7);
+	border-radius: 30px;
+	background: linear-gradient(180deg, var(--color3)60%, coral);
+	margin: 30px auto;
+	text-align: center;
+}
+
+h1{
+	color: var(--color4);
+	font-weight: bolder;
+	margin: 20px auto;
+	padding-top: 10px;
+}
+
+h2{
+	width: 20%;
+	color: var(--color5);
+	font-weight: bold;
+	margin: 20px auto;
+	padding: 10px;
+	background-color: var(--color7);
+	border: 1px solid var(--color1);
+	border-radius: 10px;
+	
+}
+
+#increment-btn{
+	width: 35%;
+	padding: 5px;
+	background-color: var(--color1);
+	border: 2px solid var(--color7);
+	border-radius: 20px;
+	color: var(--color7);
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+#increment-btn:hover{
+	background-color: var(--color5);
+	border: 2px solid var(--color1);
+	color: var(--color6);
+}
+
+#save-btn{
+	width: 35%;
+	padding: 5px;
+	background-color: var(--color1);
+	border: 2px solid var(--color7);
+	border-radius: 20px;
+	color: var(--color7);
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+#save-btn:hover{
+	background-color: var(--color5);
+	border: 2px solid var(--color1);
+	color: var(--color6);
+}
+
+#save-el{
+	font-weight: bold;
+	padding: 10px;
+	width: 80%;
+	margin: 10px auto;
+}
